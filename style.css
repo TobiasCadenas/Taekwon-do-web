@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #0a1120; /* Azul muy oscuro casi negro */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    color: white;
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    background-color: #ff0000; /* Rojo vibrante */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.hanja {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.site-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px; /* Espacio entre los enlaces */
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #e0e0e0; /* Gris muy claro */
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-item:hover {
+    color: #ffffff;
+}
+
+/* El botón rojo de "Inicio" */
+.nav-item.active {
+    background-color: #ff0000;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.section{
+    color: white;
+    text-align: center;
+    font-size: large;
+    min-height: 60vh;
+    width: 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0646/4097/files/Taekwondo_ITF_origen_reglas_y_caracteristicas_principales_4_1024x1024.jpg?v=1512842987");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    h2{
+         margin-top: 0;
+        padding-top: 40px;
+    }
+}
+
+.section__buttons{
+    gap: 10px;
+    .button1{
+        text-decoration: none;
+        background-color: red;
+        padding: 10px;
+        border-radius: 10%;
+        color: white;
+    }
+     .button2{
+        text-decoration: none;
+        background-color: gray;
+        padding: 10px;
+        border-radius: 10%;
+        color: white;
+    }
+}
+.stats-section {
+    background-color: #f2f2f2;
+    padding: 80px 40px;
+
+    display: flex;
+    justify-content: space-around; /* separa en horizontal */
+    align-items: center; /* centra verticalmente */
+    text-align: center;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column; /* ícono arriba, texto abajo */
+    align-items: center;
+    gap: 15px;
+}
+
+.stat-icon {
+    margin-bottom: 10px;
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0a1120; /* azul oscuro */
+    margin: 0;
+}
+
+.stat-text {
+    font-size: 20px;
+    color: #4a5a70; /* gris azulado */
+    margin: 0;
+}
